@@ -1,0 +1,344 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   清空瀏覽器預設樣式
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap
+{
+  margin:0 auto;
+  width: 1000px;
+}
+.header
+{
+
+  height: 30px;
+  background-color:#f6f6f6;
+}
+a
+{
+  text-decoration:none;
+}
+.facebook
+{
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/facebookIcon.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-right:5px ;
+  border-right:1px solid #9c9c9c ;
+  margin: 5px;
+}
+
+.link ul
+{
+    display:flex;
+    justify-content:end;
+}
+
+.twitter
+{
+  background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/twitterIcon.png);
+    background-repeat: no-repeat;
+  padding-left: 20px;
+  margin: 5px;
+  
+}
+
+.navigate h1
+{
+  width: 200px;
+  /* height: 100px; */
+  background-image:url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png);
+  background-repeat:no-repeat;
+  text-indent:101%;
+  overflow:hidden; 
+  white-space:nowrap;
+}
+
+.navigate
+{
+  display:flex;
+  justify-content:space-between;
+}
+
+.navigate ul 
+{
+  display:flex;
+  text-align:center;
+
+}
+
+.navigate a
+{
+  color:#14cb9a;
+  padding: 20px ;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.navigate a:hover
+{
+  border-bottom:solid #14cb9a;
+}
+
+.content
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+
+.banner
+{
+  background-image: url(../img/banner.png);
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  margin-top: 10px;
+  padding-top: 30px;
+  line-height: 50px;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+.banner h2
+{
+  width: 100%;
+  line-height: 50px;
+  font-size: 30px;
+  color: white;
+ background-color: rgba(0, 0, 0, 0.5);
+ padding-left: 20px;
+  position: absolute;
+  bottom: 125px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.course
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.course-item
+{
+  margin-top: 30px;
+  margin-bottom: 20px;
+   margin-right: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 5px 3px rgb(172, 172, 172);
+}
+.course-item3
+{
+  margin-top: 30px;
+  margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 5px 3px rgb(172, 172, 172);
+
+}
+
+.course-item h2
+{
+   text-align: center;
+   font-size: 25px;
+   margin-bottom: 20px;
+
+}
+
+.course p,.list
+{
+  line-height: 1.5;
+  margin-left: 5px;
+margin-right: 5px;
+}
+
+.course h2 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  font-weight: bold;
+
+}
+
+.course h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+
+}
+
+.courseComp h1
+{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.courseComp th,.courseComp td
+{
+    width: 200px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+
+.courseComp th
+{
+   padding: 10px;
+   font-weight:bold;
+   background: #e0e0e0;
+}
+
+.courseComp td
+{
+   padding: 10px;
+   
+}
+
+.courseComp
+{
+
+    margin: 0 auto;
+    width: 840px;
+    margin-bottom: 50px;
+}
+
+.green
+{
+    color: #02c874;
+}
+
+.connection{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(#00644B,#009772);
+	padding: 30px 5px 20px 5px;
+}
+.connection .fillin{
+	display: flex;
+	justify-content: space-between;
+}
+.connection h2{
+	font-size: 24px;
+	color: white;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.connection textarea{
+	width: 450px;
+	height: 230px;
+	border: none;
+	border-radius: 3px;
+	margin-right: 40px;
+}
+.connection-right{
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.connection-right label{
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+.connection-right .enter{
+	font-size: 12px;
+	margin-bottom: 20px;
+	border: none;
+	height: 20px;
+	border-radius: 2px;
+	padding: 5px 0px 5px 10px;
+}
+.connection-right .btn{
+	color: white;
+	background: #00CC99;
+	font-size: 10px;
+	width: 50px;
+	height: 26px;
+	margin-left: 400px;
+	border-radius: 2px;
+	border: none;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 20px 50px 20px;
+}
+.footer img{
+	height: 32px;
+}
+.footer-right h3{
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.footer span{
+	color: #E12D80;
+}
+.footer a{
+	text-decoration: none;
+	color: #E12D80;
+}
